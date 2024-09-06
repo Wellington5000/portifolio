@@ -1,0 +1,59 @@
+.navbar {
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    position: fixed;
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(255, 255, 255, .1);
+
+    span {
+        bottom: 0;
+        height: 2px;
+        width: 50px;
+        position: absolute;
+        animation: animate 5s infinite linear;
+        background: linear-gradient(90deg, transparent, #ffffff);
+    }
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+    font-weight: 500;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+.menu {
+    gap: 5rem;
+    display: flex;
+    text-transform: uppercase;
+}
+
+@keyframes animate {
+    0% {
+        left: 0;
+        transform: translate(-100%);
+    }
+
+    100% {
+        left: 100%;
+        transform: translate(0%);
+    }
+}
