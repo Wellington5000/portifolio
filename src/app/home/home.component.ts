@@ -51,6 +51,14 @@ export class HomeComponent implements OnInit {
       }
     });
 
+    gsap.to('.navbar', {
+      background: "linear-gradient(to right, #0e131f, #38405F, #0e131f)",
+      duration: 1.5,
+      scrollTrigger: {
+        start: 1
+      }
+    });
+
     gsap.to('.txt-bottom', {
       autoAlpha: 0,
       y: 500,

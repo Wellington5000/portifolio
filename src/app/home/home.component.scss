@@ -29,7 +29,7 @@
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+            background: linear-gradient(to right, #0e131f, #38405F, #0e131f);
 
             .logo-name {
                 font-size: 1rem;
@@ -158,10 +158,10 @@
 }
 
 .left-side {
-    margin-bottom: 10rem;
     gap: 5rem;
     display: flex;
     padding: 4rem;
+    margin-bottom: 10rem;
     flex-direction: column;
     justify-content: flex-end;
 }
